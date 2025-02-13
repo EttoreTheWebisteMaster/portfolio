@@ -6,14 +6,14 @@ import Tag from '../components/Tag';
 export default function About() {
 	return (
 		<>
-			<div className='glassElement md:w-full p-[32px] mt-[32px] rounded-[10px] cursor-pointer'>
+			<div className='glassElement md:w-full mt-[32px] rounded-[10px] overflow-hidden'>
 				<div className='md:flex md:items-center'>
 					<div
-						className='w-full md:min-w-80 md:w-80 md:h-80 h-40 mb-[32px] md:mb-0 rounded-[15px] bg-center bg-no-repeat bg-cover innerShadow opacity-90'
+						className='w-full md:min-w-[24em] md:w-[24em] md:min-h-[25em] h-[15em] mb-[32px] md:mb-0 bg-center bg-no-repeat bg-cover innerShadow opacity-90'
 						style={{ backgroundImage: `url(/img/profile.jpeg)` }}
 					></div>
 
-					<div className='md:px-12'>
+					<div className='md:px-12 w-full p-[32px]'>
 						<p className='text-4xl font-black mb-2'>Ettore Serra</p>
 						<p className='text-base opacity-50'>
 							A full-stack <b>developer</b>, <b>designer</b>, and{' '}

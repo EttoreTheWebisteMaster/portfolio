@@ -18,9 +18,9 @@ export default function Tag(
 					style={{ backgroundImage: `url(${props.image})` }}
 				></div>
 			)}
-			<p className='text-base font-medium truncate opacity-75 mx-[8px]'>
+			<div className='text-base font-medium truncate opacity-75 mx-[8px]'>
 				{props.name}
-			</p>
+			</div>
 		</a>
 	);
 }

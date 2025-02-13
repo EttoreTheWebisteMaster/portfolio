@@ -11,14 +11,14 @@ export default function ProjectSection(
 	}>
 ) {
 	return (
-		<div className='glassElement md:w-full p-[32px] mt-[32px] rounded-[10px]'>
+		<div className='glassElement md:w-full mt-[32px] rounded-[10px] overflow-hidden'>
 			<div className='md:flex md:items-center'>
 				<div
-					className='w-full md:min-w-80 md:w-80 md:min-h-80 h-40 mb-[32px] md:mb-0 rounded-[15px] bg-center bg-no-repeat bg-cover innerShadow opacity-90'
+					className='w-full md:min-w-[24em] md:w-[24em] md:min-h-[25em] h-[15em] mb-[32px] md:mb-0 bg-center bg-no-repeat bg-cover innerShadow opacity-90'
 					style={{ backgroundImage: `url(${props.image})` }}
 				></div>
 
-				<div className='md:px-12 w-full'>
+				<div className='md:px-12 w-full p-[32px]'>
 					<p className='text-4xl font-black mb-2'>{props.title}</p>
 
 					<p className='text-base text-justify opacity-50'>
@@ -29,7 +29,9 @@ export default function ProjectSection(
 						<p className='font-medium text-lg opacity-75'>
 							Deliverables
 						</p>
-						<p className='text-base opacity-50'>{props.deliverables}</p>
+						<p className='text-base opacity-50'>
+							{props.deliverables}
+						</p>
 					</div>
 
 					<div className='flex justify-between items-center flex-wrap'>
