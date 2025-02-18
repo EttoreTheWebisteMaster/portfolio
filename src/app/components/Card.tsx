@@ -2,6 +2,7 @@
 
 import { ReactElement } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 export default function Card(
 	props: Readonly<{
@@ -31,21 +32,34 @@ export default function Card(
 		>
 			{props.image && (
 				<div
-					className={`w-full bg-center bg-no-repeat bg-cover innerShadow opacity-90 ${
+					className={`w-full innerShadow opacity-90 relative ${
 						props.largeImage
 							? 'h-[200px] sm:h-[450px] bg-top'
 							: 'h-[150px] lg:h-[250px]'
 					}`}
-					style={{ backgroundImage: `url(${props.image})` }}
-				></div>
+				>
+					<Image
+						src={props.image}
+						alt={props.title ?? 'Image'}
+						layout='fill'
+						objectFit='cover'
+						className='absolute top-0 left-0'
+					/>
+				</div>
 			)}
 			<div className='p-[32px]'>
 				<div className='flex'>
 					{props.roundImage && (
-						<div
-							className='w-[50px] h-[50px] min-w-[50px] min-h-[50px] mr-4 bg-white rounded-[50%] bg-center bg-no-repeat bg-cover innerShadow  opacity-90'
-							style={{ backgroundImage: `url(${props.roundImage})` }}
-						></div>
+						<div className='relative w-[50px] h-[50px] min-w-[50px] min-h-[50px] mr-4 bg-white rounded-full innerShadow opacity-90'>
+							<Image
+								src={props.roundImage}
+								alt={props.title ?? 'Image'}
+								layout='intrinsic'
+								width={50}
+								height={50}
+								className='rounded-full'
+							/>
+						</div>
 					)}
 					<div className='mb-[8px]'>
 						<p className='text-3xl font-black'>{props.title}</p>

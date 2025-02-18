@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import Image from "next/image";
 
 export default function ProjectSection(
 	props: Readonly<{
@@ -13,10 +14,15 @@ export default function ProjectSection(
 	return (
 		<div className='glassElement md:w-full mt-[32px] rounded-[10px] overflow-hidden'>
 			<div className='md:flex md:items-center'>
-				<div
-					className='w-full md:min-w-[24em] md:w-[24em] md:min-h-[25em] h-[15em] mb-[32px] md:mb-0 bg-center bg-no-repeat bg-cover innerShadow opacity-90'
-					style={{ backgroundImage: `url(${props.image})` }}
-				></div>
+				<div className='relative w-full md:min-w-[24em] md:w-[24em] md:min-h-[25em] h-[15em] mb-[32px] md:mb-0'>
+					<Image
+						src={props.image ?? ''}
+						alt={props.title ?? 'Image'}
+						layout='fill'
+						objectFit='cover'
+						className='innerShadow opacity-90'
+					/>
+				</div>
 
 				<div className='md:px-12 w-full p-[32px]'>
 					<p className='text-4xl font-black mb-2'>{props.title}</p>

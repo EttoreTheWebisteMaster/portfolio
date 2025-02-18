@@ -2,16 +2,22 @@ import Card from '../components/Card';
 import ContactTags from '../components/ContactTags';
 import Paragraph from '../components/Paragraph';
 import Tag from '../components/Tag';
+import Image from 'next/image';
 
 export default function About() {
 	return (
 		<>
 			<div className='glassElement md:w-full mt-[32px] rounded-[10px] overflow-hidden'>
 				<div className='md:flex md:items-center'>
-					<div
-						className='w-full md:min-w-[24em] md:w-[24em] md:min-h-[25em] h-[15em] mb-[32px] md:mb-0 bg-center bg-no-repeat bg-cover innerShadow opacity-90'
-						style={{ backgroundImage: `url(/img/profile.jpeg)` }}
-					></div>
+					<div className='relative w-full md:min-w-[24em] md:w-[24em] md:min-h-[25em] h-[15em] mb-[32px] md:mb-0'>
+						<Image
+							src='/img/profile.jpeg'
+							alt='Profile Image'
+							layout='fill'
+							objectFit='cover'
+							className='innerShadow opacity-90'
+						/>
+					</div>
 
 					<div className='md:px-12 w-full p-[32px]'>
 						<p className='text-4xl font-black mb-2'>Ettore Serra</p>
