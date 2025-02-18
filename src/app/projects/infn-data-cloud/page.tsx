@@ -20,7 +20,7 @@ export default function InfnDataCloud() {
 				deliverables='UX/UI Interface, Vulnerability Fixes, Codebase Refactoring'
 				date='October 2023 - February 2024'
 				role='UX/UI Designer, Developer'
-				image='/img/projects/infn-data-cloud/data-cloud-logo.png'
+				image='/img/projects/infn-data-cloud/data-cloud-logo.webp'
 			/>
 			<Paragraph
 				text={
@@ -35,7 +35,7 @@ export default function InfnDataCloud() {
 			<div className='space-y-2'>
 				<Card
 					subtitle='Identifying Design Challenges'
-					image='/img/projects/infn-data-cloud/old.png'
+					image='/img/projects/infn-data-cloud/old.webp'
 					largeImage={true}
 					text={
 						<>
@@ -53,7 +53,7 @@ export default function InfnDataCloud() {
 				/>
 				<Card
 					subtitle='Crafting UX/UI Mockups'
-					image='/img/projects/infn-data-cloud/mockup.png'
+					image='/img/projects/infn-data-cloud/mockup.webp'
 					largeImage={true}
 					text={
 						<>
@@ -73,7 +73,7 @@ export default function InfnDataCloud() {
 				/>
 				<Card
 					subtitle='Implementing Frontend Enhancements'
-					image='/img/projects/infn-data-cloud/new.png'
+					image='/img/projects/infn-data-cloud/new.webp'
 					largeImage={true}
 					text={
 						<>
@@ -199,7 +199,7 @@ export default function InfnDataCloud() {
 				/>
 				<Card
 					subtitle='Presenting the INFN Data Cloud Dashboard Redesign at ISGC 2024'
-					image='/img/projects/infn-data-cloud/isgc.png'
+					image='/img/projects/infn-data-cloud/isgc.webp'
 					largeImage={true}
 					text={
 						<>

@@ -31,23 +31,20 @@ export default function Card(
 		>
 			{props.image && (
 				<div
-					className={`w-full overflow-hidden flex items-center justify-center innerShadow opacity-90 ${
+					className={`w-full bg-center bg-no-repeat bg-cover innerShadow opacity-90 ${
 						props.largeImage
 							? 'h-[200px] sm:h-[450px] bg-top'
 							: 'h-[150px] lg:h-[250px]'
 					}`}
-				>
-					<img src={props.image} alt={props.title} />
-				</div>
+					style={{ backgroundImage: `url(${props.image})` }}
+				></div>
 			)}
 			<div className='p-[32px]'>
 				<div className='flex'>
 					{props.roundImage && (
 						<div
 							className='w-[50px] h-[50px] min-w-[50px] min-h-[50px] mr-4 bg-white rounded-[50%] bg-center bg-no-repeat bg-cover innerShadow  opacity-90'
-							style={{
-								backgroundImage: `url(${props.roundImage})`,
-							}}
+							style={{ backgroundImage: `url(${props.roundImage})` }}
 						></div>
 					)}
 					<div className='mb-[8px]'>

@@ -11,7 +11,8 @@ export default function Home() {
 						<br />
 						<br />
 						Blending <b>technology</b>, <b>design</b>, and{' '}
-						<b>storytelling</b> I love to craft <b>inspiring</b> experiences.
+						<b>storytelling</b>, I love to create{' '}
+						<b>unforgettable</b> experiences.
 					</>
 				}
 			/>
@@ -21,7 +22,7 @@ export default function Home() {
 				<Card
 					title='Mr Fruitman'
 					url='mr-fruitman'
-					image='/img/projects/mr-fruitman/mr-fruitman-logo.png'
+					image='/img/projects/mr-fruitman/mr-fruitman-logo.webp'
 					text={
 						<>
 							Cycling through the city, serving up mouthwatering{' '}
@@ -36,7 +37,7 @@ export default function Home() {
 				<Card
 					title='INFN Data Cloud'
 					url='infn-data-cloud'
-					image='/img/projects/infn-data-cloud/data-cloud-logo.png'
+					image='/img/projects/infn-data-cloud/data-cloud-logo.webp'
 					text={
 						<>
 							<b>Redesign of the INFN Data Cloud Dashboard</b>, a
@@ -52,7 +53,7 @@ export default function Home() {
 				<Card
 					title='Feeling'
 					url='feeling'
-					image='/img/projects/feeling/logo.png'
+					image='/img/projects/feeling/logo.webp'
 					text={
 						<>
 							An <b>AI-driven clothing brand</b>. Every <b>ad</b>,{' '}
@@ -84,7 +85,7 @@ export default function Home() {
 				<Card
 					title='World’s Book'
 					url='worlds-book'
-					image='/img/projects/worlds-book/logo.png'
+					image='/img/projects/worlds-book/logo.webp'
 					text={
 						<>
 							A <b>collaborative storytelling platform</b> where

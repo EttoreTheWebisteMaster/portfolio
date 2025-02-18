@@ -20,7 +20,7 @@ export default function WorldsBook() {
 				deliverables='Idea, Branding, Website'
 				date='Semptember 2024'
 				role='UX/UI Designer, Developer'
-				image='/img/projects/worlds-book/logo.png'
+				image='/img/projects/worlds-book/logo.webp'
 			/>
 			<Paragraph
 				text={
@@ -75,7 +75,7 @@ export default function WorldsBook() {
 				/>
 				<Card
 					subtitle='Creating Wireframes & Mockups'
-					image='/img/projects/worlds-book/mockup.png'
+					image='/img/projects/worlds-book/mockup.webp'
 					largeImage={true}
 					text={
 						<>
@@ -104,7 +104,7 @@ export default function WorldsBook() {
 				/>
 				<Card
 					subtitle='Showcasing the Product'
-					image='/img/projects/worlds-book/showcase.png'
+					image='/img/projects/worlds-book/showcase.webp'
 					largeImage={true}
 					text={
 						<>

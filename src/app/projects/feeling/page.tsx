@@ -19,7 +19,7 @@ export default function Feeling() {
 				deliverables='Website, AI Products Graphics, AI Advertising Videos'
 				date='October 2024 - December 2024'
 				role='Designer, Developer, Marketer'
-				image='/img/projects/feeling/logo.png'
+				image='/img/projects/feeling/logo.webp'
 			/>
 			<Paragraph
 				text={
@@ -48,23 +48,8 @@ export default function Feeling() {
 					}
 				/>
 				<Card
-					subtitle='Develop the website'
-					image='/img/projects/feeling/website.png'
-					largeImage={true}
-					text={
-						<>
-							I created a <b>sleek website</b> that captured the
-							brand’s transformation. The design incorporated{' '}
-							<b>smooth navigation</b> and{' '}
-							<b>responsive features</b>, with a{' '}
-							<b>Halloween-inspired collection</b> that reflected
-							the resurrected brand.
-						</>
-					}
-				/>
-				<Card
 					subtitle='Design Products with AI'
-					image='/img/projects/feeling/products.png'
+					image='/img/projects/feeling/products.webp'
 					largeImage={true}
 					text={
 						<>
@@ -76,6 +61,21 @@ export default function Feeling() {
 							with AI to produce <b>unique, innovative designs</b>{' '}
 							that stood out in the market, blending <b>art</b>{' '}
 							with <b>technology</b>.
+						</>
+					}
+				/>
+				<Card
+					subtitle='Develop the website'
+					image='/img/projects/feeling/website.webp'
+					largeImage={true}
+					text={
+						<>
+							I created a <b>sleek website</b> that captured the
+							brand’s transformation. The design incorporated{' '}
+							<b>smooth navigation</b> and{' '}
+							<b>responsive features</b>, with a{' '}
+							<b>Halloween-inspired collection</b> that reflected
+							the resurrected brand.
 						</>
 					}
 				/>

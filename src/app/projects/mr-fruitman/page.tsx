@@ -19,7 +19,7 @@ export default function MrFruitman() {
 				deliverables='Branding, logo'
 				date='October 2022'
 				role='Illustrator'
-				image='/img/projects/mr-fruitman/mr-fruitman-logo-small.png'
+				image='/img/projects/mr-fruitman/mr-fruitman-logo.webp'
 			/>
 			<Paragraph
 				text={
@@ -33,7 +33,7 @@ export default function MrFruitman() {
 			<div className='space-y-2'>
 				<Card
 					subtitle='Set up the Mood'
-					image='/img/projects/mr-fruitman/mood.png'
+					image='/img/projects/mr-fruitman/mood.webp'
 					largeImage={true}
 					text={
 						<>
@@ -61,7 +61,7 @@ export default function MrFruitman() {
 				/>
 				<Card
 					subtitle='Sketch Initial Ideas'
-					image='/img/projects/mr-fruitman/mr-fruitman-logo.png'
+					image='/img/projects/mr-fruitman/mr-fruitman-logo.webp'
 					text={
 						<>
 							With the <b>mood set</b> and the{' '}
@@ -90,7 +90,7 @@ export default function MrFruitman() {
 				/>
 				<Card
 					subtitle='Digitalize the Design'
-					image='/img/projects/mr-fruitman/mr-fruitman-digital.png'
+					image='/img/projects/mr-fruitman/mr-fruitman-digital.webp'
 					largeImage={true}
 					text={
 						<>
@@ -107,7 +107,7 @@ export default function MrFruitman() {
 				/>
 				<Card
 					subtitle='Select the Font'
-					image='/img/projects/mr-fruitman/font.png'
+					image='/img/projects/mr-fruitman/font.webp'
 					largeImage={true}
 					text={
 						<>
@@ -122,7 +122,7 @@ export default function MrFruitman() {
 				/>
 				<Card
 					subtitle='Refine and Perfect'
-					image='/img/projects/mr-fruitman/logo-complete.png'
+					image='/img/projects/mr-fruitman/logo-complete.webp'
 					largeImage={true}
 					text={
 						<>

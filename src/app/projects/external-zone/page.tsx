@@ -43,7 +43,9 @@ export default function ExternalZone() {
 							aimed for an <b>old</b>, <b>blurred</b> aesthetic
 							combined with <b>futuristic</b> touches, symbolizing
 							External Zone’s ability to bridge the past and the
-							future. The design process involved numerous{' '}
+							future.
+							<br /><br />
+							The design process involved numerous{' '}
 							<b>retries</b> and revisions as I experimented with
 							different <b>textures</b>, <b>shapes</b>, and{' '}
 							<b>fonts</b>. Each iteration brought me closer to a
@@ -65,7 +67,9 @@ export default function ExternalZone() {
 							expertise in <b>user experience</b>. I wanted
 							visitors to feel an immediate connection with the
 							brand, without overwhelming them with unnecessary{' '}
-							<b>complexity</b>. The <b>layout</b> was designed to
+							<b>complexity</b>.
+							<br /><br />
+							The <b>layout</b> was designed to
 							be <b>clean</b>, <b>minimal</b>, and{' '}
 							<b>intuitive</b>, with easy <b>navigation</b> and{' '}
 							<b>responsive</b> features that adapt to all
