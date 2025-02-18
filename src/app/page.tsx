@@ -20,21 +20,6 @@ export default function Home() {
 			{/* Grid Layout for Cards */}
 			<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
 				<Card
-					title='Mr Fruitman'
-					url='mr-fruitman'
-					image='/img/projects/mr-fruitman/mr-fruitman-logo.webp'
-					text={
-						<>
-							Cycling through the city, serving up mouthwatering{' '}
-							<b>topped fruit skewers</b>. The entire vibe is{' '}
-							<b>inspired by the 20’s</b>, bringing a playful,
-							vintage touch that really makes it pop.
-						</>
-					}
-					animation={true}
-					truncate={true}
-				/>
-				<Card
 					title='INFN Data Cloud'
 					url='infn-data-cloud'
 					image='/img/projects/infn-data-cloud/data-cloud-logo.webp'
@@ -61,6 +46,21 @@ export default function Home() {
 							using{' '}
 							<b>advanced generative artificial intelligence</b>,
 							offering a truly unique and personalized touch.
+						</>
+					}
+					animation={true}
+					truncate={true}
+				/>
+				<Card
+					title='Mr Fruitman'
+					url='mr-fruitman'
+					image='/img/projects/mr-fruitman/mr-fruitman-logo.webp'
+					text={
+						<>
+							Cycling through the city, serving up mouthwatering{' '}
+							<b>topped fruit skewers</b>. The entire vibe is{' '}
+							<b>inspired by the 20’s</b>, bringing a playful,
+							vintage touch that really makes it pop.
 						</>
 					}
 					animation={true}

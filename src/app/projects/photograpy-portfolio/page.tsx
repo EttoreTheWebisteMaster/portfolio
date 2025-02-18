@@ -25,7 +25,7 @@ export default function PhotographyPortfolio() {
 				text={
 					<>
 						Explore the <b>vision</b> behind this bold <b>mockup</b>{' '}
-						and see how each design choice blends seamlessly to
+						and see how each design choice blends seamlessly to{' '}
 						<b>define its character</b>.
 					</>
 				}

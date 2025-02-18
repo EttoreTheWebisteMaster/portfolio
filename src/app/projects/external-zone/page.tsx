@@ -18,7 +18,7 @@ export default function ExternalZone() {
 				}
 				deliverables='Idea, Branding, Website'
 				date='March 2021'
-				role='UX/UI Designer, Developer, Marketer'
+				role='Founder, UX/UI Designer, Developer, Marketer'
 				image='/img/projects/external-zone/logo.png'
 			/>
 			<Paragraph
