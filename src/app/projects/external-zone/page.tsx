@@ -33,7 +33,7 @@ export default function ExternalZone() {
 			<div className='space-y-2'>
 				<Card
 					subtitle='Crafting the Logo'
-					image='/img/projects/external-zone/trials.png'
+					/* image='/img/projects/external-zone/trials.png' */
 					largeImage={true}
 					text={
 						<>
@@ -57,7 +57,7 @@ export default function ExternalZone() {
 				/>
 				<Card
 					subtitle='Designing the Website'
-					image='/img/projects/external-zone/website.gif'
+					/* image='/img/projects/external-zone/website.gif' */
 					largeImage={true}
 					text={
 						<>

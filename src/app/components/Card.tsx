@@ -61,14 +61,18 @@ export default function Card(
 							/>
 						</div>
 					)}
-					<div className='mb-[8px]'>
-						<p className='text-3xl font-black'>{props.title}</p>
-						{props.info && (
-							<p className='text-base italic opacity-75 mb-[16px]'>
-								{props.info}
-							</p>
-						)}
-					</div>
+					{
+						(props.title || props.info) && (
+							<div className='mb-[8px]'>
+								<p className='text-3xl font-black'>{props.title}</p>
+								{props.info && (
+									<p className='text-base italic opacity-75 mb-[16px]'>
+										{props.info}
+									</p>
+								)}
+							</div>
+						)
+					}
 				</div>
 				<div>
 					{props.subtitle && (

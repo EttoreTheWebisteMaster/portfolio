@@ -61,7 +61,6 @@ export default function MrFruitman() {
 				/>
 				<Card
 					subtitle='Sketch Initial Ideas'
-					image='/img/projects/mr-fruitman/mr-fruitman-logo.webp'
 					text={
 						<>
 							With the <b>mood set</b> and the{' '}

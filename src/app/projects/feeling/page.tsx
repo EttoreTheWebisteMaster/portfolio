@@ -113,7 +113,7 @@ export default function Feeling() {
 				/>
 				<div
 					className='relative w-full rounded overflow-hidden'
-					style={{ paddingBottom: '56.25%' }} // 16:9 aspect ratio
+					style={{ paddingBottom: '56.25%', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.08)' }}
 				>
 					<YouTube
 						videoId='i45FemqhdGI' // Replace with your YouTube video ID
