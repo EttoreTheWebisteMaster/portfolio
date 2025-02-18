@@ -338,8 +338,11 @@ export default function About() {
 					<>
 						<b>Coding</b> became second nature through{' '}
 						<b>constant learning</b> and tackling real-world{' '}
-						<b>challenges</b>. This helped me developing the
-						following <b>coding skills</b>.
+						<b>challenges</b>.
+						<br />
+						<br />
+						This helped me developing the following{' '}
+						<b>coding skills</b>.
 					</>
 				}
 			/>
@@ -539,8 +542,7 @@ export default function About() {
 				text={
 					<>
 						Lastly, throughout the journey, I collected a variety of{' '}
-						<b>other skills</b> that have shaped my approach and
-						broadened my <b>capabilities</b>.
+						<b>other&nbsp;skills</b>.
 					</>
 				}
 			/>

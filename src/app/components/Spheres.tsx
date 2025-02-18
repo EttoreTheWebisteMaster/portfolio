@@ -20,7 +20,7 @@ const Spheres: React.FC = () => {
 		<div className='fixed inset-0 z-0 pointer-events-none overflow-hidden'>
 			{spheres.map((_, index) => {
 				const size = Math.random() * 400 + 50; // Random size between 50px and 500px
-				const randomDuration = Math.random() * 50 + 40; // spheres speed
+				const randomDuration = Math.random() * 50 + 30; // spheres speed (the lower the number higher the speed)
 				const randomDelay = Math.random() * 40 + 's'; // Random delay when spheres fade in
 				const randomMovement = `translate(${Math.random() * 100}vw, ${
 					Math.random() * 100
