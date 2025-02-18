@@ -19,7 +19,7 @@ export default function MrFruitman() {
 				deliverables='Branding, logo'
 				date='October 2022'
 				role='Illustrator'
-				image='/img/projects/mr-fruitman/mr-fruitman-logo.png'
+				image='/img/projects/mr-fruitman/mr-fruitman-logo-small.png'
 			/>
 			<Paragraph
 				text={
