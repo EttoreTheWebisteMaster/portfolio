@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Spheres from '@/app/components/Spheres';
 import { Container } from '@mui/material';
 import Footer from './components/Footer';
+import { Analytics } from '@vercel/analytics/next';
 
 const roboto = Roboto({
 	subsets: ['latin'],
@@ -33,6 +34,7 @@ export default function RootLayout({
 					<main className='pt-[100px]'>{children}</main>
 				</Container>
 				<Footer />
+				<Analytics />
 			</body>
 		</html>
 	);
