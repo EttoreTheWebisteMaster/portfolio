@@ -100,6 +100,24 @@ export default function Home() {
 					animation={true}
 					truncate={true}
 				/>
+				<Card
+					title='Photograpy portfolio'
+					url='photograpy-portfolio'
+					image='/img/projects/photograpy-portfolio/mockup.webp'
+					text={
+						<>
+							A{' '}
+							<b>
+								black-and-white brutalist photography portfolio
+							</b>{' '}
+							designed in <b>Figma</b>, with raw aesthetics while
+							maintaning functional usability. The site showcase
+							the photos while allowing users to purchase prints.
+						</>
+					}
+					animation={true}
+					truncate={true}
+				/>
 			</div>
 		</div>
 	);
