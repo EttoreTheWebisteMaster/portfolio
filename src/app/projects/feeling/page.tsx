@@ -1,5 +1,5 @@
 import Card from '@/app/components/Card';
-import ContactTags from '@/app/components/ContactTags';
+import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
 
@@ -97,22 +97,7 @@ export default function Feeling() {
 					}
 				/>
 
-				<Paragraph
-					text={
-						<>
-							<b>What do you think?</b>
-							<br />
-							<br />
-							Is there anything you’d <b>tweak</b> or{' '}
-							<b>improve</b>?
-							<br />
-							<br />
-							Feel free to <b>reach out</b> and let me know your
-							thoughts!
-						</>
-					}
-				/>
-				<ContactTags />
+				<Feedback />
 			</div>
 		</>
 	);
