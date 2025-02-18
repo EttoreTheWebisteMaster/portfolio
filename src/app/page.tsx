@@ -11,9 +11,7 @@ export default function Home() {
 						<br />
 						<br />
 						Blending <b>technology</b>, <b>design</b>, and{' '}
-						<b>storytelling</b> I love to craft experiences that{' '}
-						<b>captivate</b>, <b>inspire</b>, and disrupt the
-						ordinary.
+						<b>storytelling</b> I love to craft <b>inspiring</b> experiences.
 					</>
 				}
 			/>
