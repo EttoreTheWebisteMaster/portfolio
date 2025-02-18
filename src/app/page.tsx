@@ -100,51 +100,6 @@ export default function Home() {
 					animation={true}
 					truncate={true}
 				/>
-				<Card
-					title='Aine Team'
-					url='aine-team'
-					image='/'
-					text={
-						<>
-							Cycling through the city, serving up mouthwatering{' '}
-							<b>topped fruit skewers</b>. The entire vibe is{' '}
-							<b>inspired by the 20’s</b>, bringing a playful,
-							vintage touch that really makes it pop.
-						</>
-					}
-					animation={true}
-					truncate={true}
-				/>
-				<Card
-					title='Savage'
-					url='savage'
-					image='/'
-					text={
-						<>
-							Cycling through the city, serving up mouthwatering{' '}
-							<b>topped fruit skewers</b>. The entire vibe is{' '}
-							<b>inspired by the 20’s</b>, bringing a playful,
-							vintage touch that really makes it pop.
-						</>
-					}
-					animation={true}
-					truncate={true}
-				/>
-				<Card
-					title='Photograpy Portfolio'
-					url='photography-portfolio'
-					image='/'
-					text={
-						<>
-							Cycling through the city, serving up mouthwatering{' '}
-							<b>topped fruit skewers</b>. The entire vibe is{' '}
-							<b>inspired by the 20’s</b>, bringing a playful,
-							vintage touch that really makes it pop.
-						</>
-					}
-					animation={true}
-					truncate={true}
-				/>
 			</div>
 		</div>
 	);
