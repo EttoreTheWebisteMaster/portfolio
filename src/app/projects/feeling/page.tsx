@@ -1,7 +1,23 @@
+'use client';
+
 import Card from '@/app/components/Card';
 import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
+import YouTube from 'react-youtube'
+
+const videoOptions = {
+	height: '100%',
+	width: '100%',
+	playerVars: {
+		autoplay: 1, // Autoplay video
+		controls: 1, // Hide video controls
+		modestbranding: 1, // Hide YouTube logo and branding
+		rel: 0, // Disable showing related videos at the end
+		showinfo: 0, // Hide video information (e.g., title)
+		mute: 1
+	},
+};
 
 export default function Feeling() {
 	return (
@@ -81,7 +97,6 @@ export default function Feeling() {
 				/>
 				<Card
 					subtitle='Create Promotional AI Videos'
-					image='/img/projects/feeling/video.gif'
 					largeImage={true}
 					text={
 						<>
@@ -96,6 +111,16 @@ export default function Feeling() {
 						</>
 					}
 				/>
+				<div
+					className='relative w-full rounded overflow-hidden'
+					style={{ paddingBottom: '56.25%' }} // 16:9 aspect ratio
+				>
+					<YouTube
+						videoId='i45FemqhdGI' // Replace with your YouTube video ID
+						opts={videoOptions}
+						className='absolute top-0 left-0 w-full h-full'
+					/>
+				</div>
 
 				<Feedback />
 			</div>
