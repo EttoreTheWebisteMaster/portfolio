@@ -12,13 +12,6 @@
 	--foreground: #2c2c2c;
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--background: #0a0a0a;
-		--foreground: #ededed;
-	}
-}
-
 body {
 	color: var(--foreground);
 	background: var(--background);
@@ -39,7 +32,6 @@ body {
 	/* box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.15),
 		inset -4px -4px 10px rgba(255, 255, 255, 0.15); */
 }
-
 
 /* Keyframes for soft bounce effect */
 @keyframes bounceSoft {
@@ -63,7 +55,6 @@ body {
 .hover\:animate-bounceSoft:hover {
 	animation: bounceSoft 2s ease-in-out;
 }
-
 
 /* SPHERES */
 
@@ -90,7 +81,7 @@ body {
 		opacity: 0;
 	}
 	100% {
-		opacity: .5;
+		opacity: 0.5;
 	}
 }
 
