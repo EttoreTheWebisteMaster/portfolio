@@ -17,27 +17,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
 	title: 'Ettore Serra',
 	description:
-		'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
-	openGraph: {
-		title: 'Ettore Serra',
-		description:
-			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
-		images: [
-			{
-				url: '/img/logo.webp',
-				width: 1200,
-				height: 630,
-				alt: 'Logo',
-			},
-		],
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'Ettore Serra',
-		description:
-			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
-		images: ['/img/logo.webp'],
-	},
+		'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.'
 };
 
 export default function RootLayout({
