@@ -2,6 +2,7 @@ import Card from '@/app/components/Card';
 import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
+import Tag from '@/app/components/Tag';
 
 export default function InfnDataCloud() {
 	return (
@@ -10,11 +11,12 @@ export default function InfnDataCloud() {
 				title='INFN Data Cloud'
 				text={
 					<>
-						<b>Redesign of the INFN Data Cloud Dashboard</b>, a user
-						interface for managing and deploying{' '}
-						<b>cloud resources</b>, providing a streamlined, secure,
-						and efficient experience for <b>researchers</b> and{' '}
-						<b>developers</b>.
+						A <b>powerful</b>, <b>intuitive</b> interface designed
+						for <b>researchers</b> and <b>developers</b> to deploy
+						and control <b>cloud resources</b> with unmatched ease.
+						I led its <b>redesign</b> and <b>refactoring</b>,{' '}
+						<b>enhanced security</b> and <b>efficiency</b> to
+						elevate the experience.
 					</>
 				}
 				deliverables='UX/UI Interface, Vulnerability Fixes, Codebase Refactoring'
@@ -68,6 +70,13 @@ export default function InfnDataCloud() {
 							that the dashboard remained aligned with{' '}
 							<b>INFN’s branding</b> while improving its{' '}
 							<b>usability</b> and overall <b>user journey</b>.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/figma.png'
+								name='Figma'
+								url='https://www.figma.com/'
+							/>
 						</>
 					}
 				/>

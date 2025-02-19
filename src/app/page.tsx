@@ -25,11 +25,13 @@ export default function Home() {
 					image='/img/projects/infn-data-cloud/data-cloud-logo.webp'
 					text={
 						<>
-							<b>Redesign of the INFN Data Cloud Dashboard</b>, a
-							user interface for managing and deploying{' '}
-							<b>cloud resources</b>, providing a streamlined,
-							secure, and efficient experience for{' '}
-							<b>researchers</b> and <b>developers</b>.
+							A <b>powerful</b>, <b>intuitive</b> interface
+							designed for <b>researchers</b> and{' '}
+							<b>developers</b> to deploy and control{' '}
+							<b>cloud resources</b> with unmatched ease. I led
+							its <b>redesign</b> and <b>refactoring</b>,{' '}
+							<b>enhanced security</b> and <b>efficiency</b> to
+							elevate the experience.
 						</>
 					}
 					animation={true}
