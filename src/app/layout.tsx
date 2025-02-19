@@ -6,7 +6,6 @@ import Spheres from '@/app/components/Spheres';
 import { Container } from '@mui/material';
 import Footer from './components/Footer';
 import { Analytics } from '@vercel/analytics/next';
-import Head from 'next/head';
 
 const roboto = Roboto({
 	subsets: ['latin'],
@@ -18,27 +17,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
 	title: 'Ettore Serra',
 	description:
-		'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
-	openGraph: {
-		title: 'Ettore Serra',
-		description:
-			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
-		images: [
-			{
-				url: '/img/logo.webp',
-				width: 1200,
-				height: 630,
-				alt: 'Logo',
-			},
-		],
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'Ettore Serra',
-		description:
-			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
-		images: ['/img/logo.webp'],
-	},
+		'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.'
 };
 
 export default function RootLayout({
@@ -48,16 +27,6 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<Head>
-				<meta
-					property='og:image'
-					content='/img/logo.webp'
-				/>
-				<meta
-					name='twitter:image'
-					content='/img/logo.webp'
-				/>
-			</Head>
 			<body className={`${roboto.variable} antialiased`}>
 				<Spheres />
 				<Navbar />
