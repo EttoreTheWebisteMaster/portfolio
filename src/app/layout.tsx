@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
 		images: [
 			{
-				url: '/logo.webp',
+				url: '/img/logo.webp',
 				width: 1200,
 				height: 630,
 				alt: 'Logo',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 		title: 'Ettore Serra',
 		description:
 			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
-		images: ['/logo.webp'],
+		images: ['/img/logo.webp'],
 	},
 };
 
