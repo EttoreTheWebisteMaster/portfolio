@@ -7,6 +7,7 @@ import {
 	XMarkIcon,
 	ArrowRightIcon,
 } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 function NavbarElement(
 	props: Readonly<{
@@ -91,6 +92,7 @@ export default function Navbar() {
 						onClick={() => handleNavigation('/')}
 						aria-label='Ettore Serra | Developer & Designer'
 					>
+						<Image src='/img/logo.webp' alt='Logo' width={25} height={25} className='mr-2' />
 						<div>
 							<p className='text-2xl font-black'>Ettore Serra</p>
 							<p className='text-xs font-medium uppercase opacity-50'>
