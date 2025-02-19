@@ -18,6 +18,26 @@ export const metadata: Metadata = {
 	title: 'Ettore Serra',
 	description:
 		'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
+	openGraph: {
+		title: 'Ettore Serra',
+		description:
+			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
+		images: [
+			{
+				url: '/logo.webp',
+				width: 1200,
+				height: 630,
+				alt: 'Logo',
+			},
+		],
+	},
+	twitter: {
+		card: 'summary_large_image',
+		title: 'Ettore Serra',
+		description:
+			'A showcase of Ettore Serra’s creative and professional projects, highlighting a diverse portfolio of innovative work.',
+		images: ['/logo.webp'],
+	},
 };
 
 export default function RootLayout({
