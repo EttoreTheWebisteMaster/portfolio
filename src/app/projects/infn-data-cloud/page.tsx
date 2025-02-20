@@ -342,6 +342,13 @@ export default function InfnDataCloud() {
 							<b>international agencies</b>, highlighting the
 							comprehensive improvements made to the{' '}
 							<b>INFN Cloud Dashboard</b>.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/officesuite.jpeg'
+								name='Office Suite'
+								url='https://www.microsoft.com/en-us/microsoft-365'
+							/>
 						</>
 					}
 				/>

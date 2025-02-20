@@ -2,6 +2,7 @@ import Card from '@/app/components/Card';
 import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
+import Tag from '@/app/components/Tag';
 
 export default function MrFruitman() {
 	return (
@@ -37,11 +38,13 @@ export default function MrFruitman() {
 					largeImage={true}
 					text={
 						<>
-							After getting all the <b>necessary details</b> from
-							the client , I put on my <b>headphones</b>, tuned
-							into some <b>swing jazz</b>, and began{' '}
-							<b>researching the 20’s</b>. This helped me immerse
-							myself in the era’s vibe and{' '}
+							<p className='mb-2'>
+								After getting all the <b>necessary details</b>{' '}
+								from the client , I put on my <b>headphones</b>,
+								tuned into some <b>swing jazz</b>, and began{' '}
+								<b>researching the 20’s</b>.
+							</p>
+							This helped me immerse myself in the era’s vibe and{' '}
 							<b>gather visual inspiration</b> for the logo.
 						</>
 					}
@@ -50,12 +53,15 @@ export default function MrFruitman() {
 					subtitle='Understand the Concept'
 					text={
 						<>
-							I took the time to <b>fully understand</b> the
-							essence of the brand, its <b>fun</b>, <b>retro</b>,
-							and <b>quirky</b> feel. I wanted to capture the
-							energy of <b>cycling</b> through the city with{' '}
-							<b>fruit skewers</b>, all while embracing that
-							distinct <b>20’s atmosphere</b>.
+							<p className='mb-2'>
+								I took the time to <b>fully understand</b> the
+								essence of the brand, its <b>fun</b>,{' '}
+								<b>retro</b>, and <b>quirky</b> feel.
+							</p>
+							I wanted to capture the energy of <b>cycling</b>{' '}
+							through the city with <b>fruit skewers</b>, all
+							while embracing that distinct <b>20’s atmosphere</b>
+							.
 						</>
 					}
 				/>
@@ -63,11 +69,13 @@ export default function MrFruitman() {
 					subtitle='Sketch Initial Ideas'
 					text={
 						<>
-							With the <b>mood set</b> and the{' '}
-							<b>concept clear</b>, I grabbed my sketchbook and
-							started putting down some rough ideas . I
-							experimented with <b>different elements</b> and 20’s
-							style typography. I focused on making it{' '}
+							<p className='mb-2'>
+								With the <b>mood set</b> and the{' '}
+								<b>concept clear</b>, I grabbed my sketchbook
+								and started putting down some rough ideas.
+							</p>
+							I experimented with <b>different elements</b> and
+							20’s style typography. I focused on making it{' '}
 							<b>playful</b> yet <b>vintage</b>.
 						</>
 					}
@@ -76,11 +84,14 @@ export default function MrFruitman() {
 					subtitle='Choose the Color Palette'
 					text={
 						<>
-							After finalizing the initial sketch, I moved on to{' '}
-							<b>picking colors</b>. I leaned towards{' '}
-							<b>warm, vibrant tones</b>, something that reflects
-							the <b>fresh</b>, <b>fruity</b> aspect of the brand
-							while staying in line with the lively 20’s style.
+							<p className='mb-2'>
+								After finalizing the initial sketch, I moved on
+								to <b>picking colors</b>. I leaned towards{' '}
+								<b>warm, vibrant tones</b>, something that
+								reflects the <b>fresh</b>, <b>fruity</b> aspect
+								of the brand while staying in line with the
+								lively 20’s style.
+							</p>
 							Think pops of <b>bright fruit colors</b> mixed with{' '}
 							<b>muted vintage hues</b>. So i came out with a{' '}
 							<b>light blue</b> and a <b>faded yellow</b>.
@@ -93,14 +104,24 @@ export default function MrFruitman() {
 					largeImage={true}
 					text={
 						<>
-							Next, <b>I took my sketch to Adobe Illustrator</b>.
-							Using the pen tool, I recreated the logo in vector
-							form, refining the lines, shapes, and overall
-							composition.{' '}
+							<p className='mb-2'>
+								Next,{' '}
+								<b>I took my sketch to Adobe Illustrator</b>.
+								Using the pen tool, I recreated the logo in
+								vector form, refining the lines, shapes, and
+								overall composition.{' '}
+							</p>
 							<b>
 								I made sure the design was clean and scalable
 								for any application.
 							</b>
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/illustrator.png'
+								name='Adobe Illustrator'
+								url='https://www.adobe.com/products/illustrator.html'
+							/>
 						</>
 					}
 				/>
@@ -110,12 +131,22 @@ export default function MrFruitman() {
 					largeImage={true}
 					text={
 						<>
-							For the typography, I chose a{' '}
-							<b>bold yet classic font</b> that had a touch of the
-							20’s flair . It needed to balance both the{' '}
-							<b>retro theme</b> and the <b>playful nature</b> of
-							the brand, so I <b>tested a few different styles</b>{' '}
-							before settling on the perfect one.
+							<p className='mb-2'>
+								For the typography, I chose a{' '}
+								<b>bold yet classic font</b> that had a touch of
+								the 20’s flair.
+							</p>
+							It needed to balance both the <b>retro theme</b> and
+							the <b>playful nature</b> of the brand, so I{' '}
+							<b>tested a few different styles</b> before settling
+							on the perfect one.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/illustrator.png'
+								name='Adobe Illustrator'
+								url='https://www.adobe.com/products/illustrator.html'
+							/>
 						</>
 					}
 				/>
@@ -125,12 +156,22 @@ export default function MrFruitman() {
 					largeImage={true}
 					text={
 						<>
-							I <b>fine-tuned the elements</b> of the logo,
-							adjusting proportions and ensuring everything looked
-							balanced. I also added a <b>fine vintage</b> effect
-							and <b>tested</b> how the logo looked at{' '}
+							<p className='mb-2'>
+								I <b>fine-tuned the elements</b> of the logo,
+								adjusting proportions and ensuring everything
+								looked balanced.
+							</p>
+							I also added a <b>fine vintage</b> effect and{' '}
+							<b>tested</b> how the logo looked at{' '}
 							<b>various sizes</b> to make sure it maintained its
 							clarity and impact.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/illustrator.png'
+								name='Adobe Illustrator'
+								url='https://www.adobe.com/products/illustrator.html'
+							/>
 						</>
 					}
 				/>
@@ -144,6 +185,13 @@ export default function MrFruitman() {
 							finalized, capturing the 20’s vibe, the fun of
 							cycling, and the freshness of fruit skewers in{' '}
 							<b>one perfect design</b>.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/clientrelationships.png'
+								name='Client Relationships'
+								url='https://en.wikipedia.org/wiki/Customer_relationship_management'
+							/>
 						</>
 					}
 				/>

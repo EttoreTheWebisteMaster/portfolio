@@ -4,7 +4,8 @@ import Card from '@/app/components/Card';
 import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
-import YouTube from 'react-youtube'
+import YouTube from 'react-youtube';
+import Tag from '@/app/components/Tag';
 
 const videoOptions = {
 	height: '100%',
@@ -15,7 +16,7 @@ const videoOptions = {
 		modestbranding: 1, // Hide YouTube logo and branding
 		rel: 0, // Disable showing related videos at the end
 		showinfo: 0, // Hide video information (e.g., title)
-		mute: 1
+		mute: 1,
 	},
 };
 
@@ -51,14 +52,16 @@ export default function Feeling() {
 					subtitle='Understand the idea'
 					text={
 						<>
-							The brand had been dormant for years but wanted to
-							make a comeback with an <b>AI-driven concept</b>.
-							The idea was to embrace a <b>resurrecting theme</b>,
-							inspired by Halloween, where{' '}
-							<b>zombie-inspired products</b> symbolized the
-							brand’s revival. This concept was designed to blend{' '}
-							<b>technology</b> with a bold, eerie{' '}
-							<b>aesthetic</b>, creating a{' '}
+							<p className='mb-2'>
+								The brand had been dormant for years but wanted
+								to make a comeback with an{' '}
+								<b>AI-driven concept</b>. The idea was to
+								embrace a <b>resurrecting theme</b>, inspired by
+								Halloween, where <b>zombie-inspired products</b>{' '}
+								symbolized the brand’s revival.
+							</p>
+							This concept was designed to blend <b>technology</b>{' '}
+							with a bold, eerie <b>aesthetic</b>, creating a{' '}
 							<b>unique and intriguing identity</b>.
 						</>
 					}
@@ -69,14 +72,31 @@ export default function Feeling() {
 					largeImage={true}
 					text={
 						<>
-							Using <b>Generative AI tools</b>, I designed
-							exclusive, cutting-edge <b>products</b> and{' '}
-							<b>promotional images</b> that embodied the{' '}
-							<b>resurrection theme</b>. Each item, from{' '}
-							<b>apparel</b> to <b>accessories</b>, was crafted
-							with AI to produce <b>unique, innovative designs</b>{' '}
-							that stood out in the market, blending <b>art</b>{' '}
-							with <b>technology</b>.
+							<p className='mb-2'>
+								Using <b>Generative AI tools</b>, I designed
+								exclusive, cutting-edge <b>products</b> and{' '}
+								<b>promotional images</b> that embodied the{' '}
+								<b>resurrection theme</b>.
+							</p>
+							Each item, from <b>apparel</b> to <b>accessories</b>
+							, was crafted with AI to produce{' '}
+							<b>unique, innovative designs</b> that stood out in
+							the market, blending <b>art</b> with{' '}
+							<b>technology</b>.
+							<br />
+							<br />
+							<div className='flex flex-wrap space-y-2 justify-left items-end'>
+								<Tag
+									image='/img/tags/skills/photoshop.png'
+									name='Adobe Photoshop'
+									url='https://www.adobe.com/products/photoshop.html'
+								/>
+								<Tag
+									image='/img/tags/skills/generativeai.webp'
+									name='Generative AI'
+									url='https://en.wikipedia.org/wiki/Generative_artificial_intelligence'
+								/>
+							</div>
 						</>
 					}
 				/>
@@ -92,6 +112,45 @@ export default function Feeling() {
 							<b>responsive features</b>, with a{' '}
 							<b>Halloween-inspired collection</b> that reflected
 							the resurrected brand.
+							<br />
+							<br />
+							<div className='flex flex-wrap space-y-2 justify-left items-end'>
+								<Tag
+									image='/img/tags/skills/figma.png'
+									name='Figma'
+									url='https://www.figma.com/'
+								/>
+								<Tag
+									image='/img/tags/skills/nextjs.webp'
+									name='Next.js'
+									url='https://nextjs.org/'
+								/>
+								<Tag
+									image='/img/tags/skills/ts.png'
+									name='TypeScript'
+									url='https://www.typescriptlang.org/'
+								/>
+								<Tag
+									image='/img/tags/skills/prisma.png'
+									name='Prisma'
+									url='https://www.prisma.io/'
+								/>
+								<Tag
+									image='/img/tags/skills/html.png'
+									name='HTML'
+									url='https://developer.mozilla.org/en-US/docs/Web/HTML'
+								/>
+								<Tag
+									image='/img/tags/skills/css.png'
+									name='CSS'
+									url='https://developer.mozilla.org/en-US/docs/Web/CSS'
+								/>
+								<Tag
+									image='/img/tags/skills/stripe.jpeg'
+									name='Stripe'
+									url='https://stripe.com/'
+								/>
+							</div>
 						</>
 					}
 				/>
@@ -100,20 +159,51 @@ export default function Feeling() {
 					largeImage={true}
 					text={
 						<>
-							To promote the brand, I developed{' '}
-							<b>AI-generated promotional videos</b>. These
-							visually captivating clips featured{' '}
-							<b>zombies interacting with the products</b>,
-							showcasing the brand’s <b>theme of resurrection</b>.
+							<p className='mb-2'>
+								To promote the brand, I developed{' '}
+								<b>AI-generated promotional videos</b>. These
+								visually captivating clips featured{' '}
+								<b>zombies interacting with the products</b>,
+								showcasing the brand’s{' '}
+								<b>theme of resurrection</b>.
+							</p>
 							The videos created a sense of{' '}
 							<b>intrigue and excitement</b>, highlighting the
 							brand’s new, <b>AI-driven direction</b>.
+							<br />
+							<br />
+							<div className='flex flex-wrap space-y-2 justify-left items-end'>
+								<Tag
+									image='/img/tags/skills/generativeai.webp'
+									name='Generative AI'
+									url='https://en.wikipedia.org/wiki/Generative_artificial_intelligence'
+								/>
+								<Tag
+									image='/img/tags/skills/photoshop.png'
+									name='Adobe Photoshop'
+									url='https://www.adobe.com/products/photoshop.html'
+								/>
+								<Tag
+									image='/img/tags/skills/video.jpg'
+									name='Video Editing'
+									url='https://en.wikipedia.org/wiki/Video_editing'
+								/>
+								<Tag
+									image='/img/tags/skills/imovie.jpeg'
+									name='iMovie'
+									url='https://www.apple.com/imovie/'
+								/>
+							</div>
 						</>
 					}
 				/>
 				<div
 					className='relative w-full rounded overflow-hidden'
-					style={{ paddingBottom: '56.25%', boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.08)' }}
+					style={{
+						paddingBottom: '56.25%',
+						boxShadow:
+							'0 4px 20px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.08)',
+					}}
 				>
 					<YouTube
 						videoId='i45FemqhdGI' // Replace with your YouTube video ID
