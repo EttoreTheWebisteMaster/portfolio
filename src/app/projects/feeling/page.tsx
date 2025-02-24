@@ -7,6 +7,8 @@ import Section from '@/app/components/Section';
 import YouTube from 'react-youtube';
 import Tag from '@/app/components/Tag';
 
+const videoId = 'i45FemqhdGI'; // YouTube video ID
+
 const videoOptions = {
 	height: '100%',
 	width: '100%',
@@ -16,7 +18,9 @@ const videoOptions = {
 		modestbranding: 1, // Hide YouTube logo and branding
 		rel: 0, // Disable showing related videos at the end
 		showinfo: 0, // Hide video information (e.g., title)
-		mute: 1,
+		mute: 1, // Mute video
+		loop: 1, // Enable looping
+		playlist: videoId,
 	},
 };
 
@@ -206,7 +210,7 @@ export default function Feeling() {
 					}}
 				>
 					<YouTube
-						videoId='i45FemqhdGI' // Replace with your YouTube video ID
+						videoId={videoId}
 						opts={videoOptions}
 						className='absolute top-0 left-0 w-full h-full'
 					/>
