@@ -2,6 +2,7 @@ import Card from '@/app/components/Card';
 import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
+import Tag from '@/app/components/Tag';
 
 export default function ExternalZone() {
 	return (
@@ -33,7 +34,7 @@ export default function ExternalZone() {
 			<div className='space-y-2'>
 				<Card
 					subtitle='Crafting the Logo'
-					/* image='/img/projects/external-zone/trials.png' */
+					image='/img/projects/external-zone/trials.webp'
 					largeImage={true}
 					text={
 						<>
@@ -44,14 +45,24 @@ export default function ExternalZone() {
 							combined with <b>futuristic</b> touches, symbolizing
 							External Zone’s ability to bridge the past and the
 							future.
-							<br /><br />
-							The design process involved numerous{' '}
-							<b>retries</b> and revisions as I experimented with
-							different <b>textures</b>, <b>shapes</b>, and{' '}
-							<b>fonts</b>. Each iteration brought me closer to a
-							logo that felt both <b>timeless</b> and{' '}
-							<b>ahead of its time</b>, perfectly representing the
-							agency’s unique position in the market.
+							<br />
+							<br />
+							The design process involved numerous <b>
+								retries
+							</b>{' '}
+							and revisions as I experimented with different{' '}
+							<b>textures</b>, <b>shapes</b>, and <b>fonts</b>.
+							Each iteration brought me closer to a logo that felt
+							both <b>timeless</b> and <b>ahead of its time</b>,
+							perfectly representing the agency’s unique position
+							in the market.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/photoshop.png'
+								name='Adobe Photoshop'
+								url='https://www.adobe.com/products/photoshop.html'
+							/>
 						</>
 					}
 				/>
@@ -68,15 +79,37 @@ export default function ExternalZone() {
 							visitors to feel an immediate connection with the
 							brand, without overwhelming them with unnecessary{' '}
 							<b>complexity</b>.
-							<br /><br />
-							The <b>layout</b> was designed to
-							be <b>clean</b>, <b>minimal</b>, and{' '}
-							<b>intuitive</b>, with easy <b>navigation</b> and{' '}
-							<b>responsive</b> features that adapt to all
-							devices. The goal was to ensure a <b>seamless</b>{' '}
-							and <b>engaging</b> experience, reflecting the
-							agency’s commitment to high-quality digital
-							solutions.
+							<br />
+							<br />
+							The <b>layout</b> was designed to be <b>clean</b>,{' '}
+							<b>minimal</b>, and <b>intuitive</b>, with easy{' '}
+							<b>navigation</b> and <b>responsive</b> features
+							that adapt to all devices. The goal was to ensure a{' '}
+							<b>seamless</b> and <b>engaging</b> experience,
+							reflecting the agency’s commitment to high-quality
+							digital solutions.
+							<br />
+							<br />
+							<div className='flex flex-wrap space-y-2 justify-left items-end'>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/html.png'
+									name='HTML'
+									url='https://developer.mozilla.org/en-US/docs/Web/HTML'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/css.png'
+									name='CSS'
+									url='https://developer.mozilla.org/en-US/docs/Web/CSS'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/js.png'
+									name='JavaScript'
+									url='https://www.javascript.com/'
+								/>
+							</div>
 						</>
 					}
 				/>

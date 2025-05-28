@@ -91,11 +91,13 @@ export default function Feeling() {
 							<br />
 							<div className='flex flex-wrap space-y-2 justify-left items-end'>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/photoshop.png'
 									name='Adobe Photoshop'
 									url='https://www.adobe.com/products/photoshop.html'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/generativeai.webp'
 									name='Generative AI'
 									url='https://en.wikipedia.org/wiki/Generative_artificial_intelligence'
@@ -120,36 +122,43 @@ export default function Feeling() {
 							<br />
 							<div className='flex flex-wrap space-y-2 justify-left items-end'>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/figma.png'
 									name='Figma'
 									url='https://www.figma.com/'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/nextjs.webp'
 									name='Next.js'
 									url='https://nextjs.org/'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/ts.png'
 									name='TypeScript'
 									url='https://www.typescriptlang.org/'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/prisma.png'
 									name='Prisma'
 									url='https://www.prisma.io/'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/html.png'
 									name='HTML'
 									url='https://developer.mozilla.org/en-US/docs/Web/HTML'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/css.png'
 									name='CSS'
 									url='https://developer.mozilla.org/en-US/docs/Web/CSS'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/stripe.jpeg'
 									name='Stripe'
 									url='https://stripe.com/'
@@ -178,21 +187,25 @@ export default function Feeling() {
 							<br />
 							<div className='flex flex-wrap space-y-2 justify-left items-end'>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/generativeai.webp'
 									name='Generative AI'
 									url='https://en.wikipedia.org/wiki/Generative_artificial_intelligence'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/photoshop.png'
 									name='Adobe Photoshop'
 									url='https://www.adobe.com/products/photoshop.html'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/video.jpg'
 									name='Video Editing'
 									url='https://en.wikipedia.org/wiki/Video_editing'
 								/>
 								<Tag
+									className='mr-2'
 									image='/img/tags/skills/imovie.jpeg'
 									name='iMovie'
 									url='https://www.apple.com/imovie/'

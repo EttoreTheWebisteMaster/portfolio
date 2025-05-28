@@ -2,6 +2,7 @@ import Card from '@/app/components/Card';
 import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
+import Tag from '@/app/components/Tag';
 
 export default function PhotographyPortfolio() {
 	return (
@@ -55,6 +56,13 @@ export default function PhotographyPortfolio() {
 							<b>minimal yet effective</b>, and product purchase
 							elements are seamlessly integrated without
 							disrupting the brutalist vibe.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/figma.png'
+								name='Figma'
+								url='https://www.figma.com/'
+							/>
 						</>
 					}
 				/>
@@ -80,6 +88,13 @@ export default function PhotographyPortfolio() {
 							the brutalist framework. The result is a portfolio
 							that is both <b>unapologetically striking</b> and{' '}
 							<b>effortlessly navigable</b>.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/figma.png'
+								name='Figma'
+								url='https://www.figma.com/'
+							/>
 						</>
 					}
 				/>

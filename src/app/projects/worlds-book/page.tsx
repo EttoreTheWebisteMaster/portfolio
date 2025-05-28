@@ -2,6 +2,7 @@ import Card from '@/app/components/Card';
 import Feedback from '@/app/components/Feedback';
 import Paragraph from '@/app/components/Paragraph';
 import Section from '@/app/components/Section';
+import Tag from '@/app/components/Tag';
 
 export default function WorldsBook() {
 	return (
@@ -86,6 +87,13 @@ export default function WorldsBook() {
 							<b>paper-like effect</b>, yet with a{' '}
 							<b>futuristic</b> touch, balancing both tradition
 							and innovation.
+							<br />
+							<br />
+							<Tag
+								image='/img/tags/skills/figma.png'
+								name='Figma'
+								url='https://www.figma.com/'
+							/>
 						</>
 					}
 				/>
@@ -99,6 +107,46 @@ export default function WorldsBook() {
 							<b>token transactions</b>, and a{' '}
 							<b>scalable database</b> to store stories and user
 							data.
+							<br />
+							<br />
+							<div className='flex flex-wrap space-y-2 justify-left items-end'>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/html.png'
+									name='HTML'
+									url='https://developer.mozilla.org/en-US/docs/Web/HTML'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/css.png'
+									name='CSS'
+									url='https://developer.mozilla.org/en-US/docs/Web/CSS'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/js.png'
+									name='JavaScript'
+									url='https://www.javascript.com/'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/nextjs.webp'
+									name='Next.js'
+									url='https://nextjs.org/'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/MySQL.png'
+									name='MySQL'
+									url='https://www.mysql.com/'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/stripe.jpeg'
+									name='Stripe'
+									url='https://stripe.com/'
+								/>
+							</div>
 						</>
 					}
 				/>
@@ -115,6 +163,34 @@ export default function WorldsBook() {
 							writers to <b>join the community</b>. The goal is to{' '}
 							<b>generate interest</b>, <b>grow engagement</b>,
 							and establish a passionate user base.
+							<br />
+							<br />
+							<div className='flex flex-wrap space-y-2 justify-left items-end'>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/html.png'
+									name='HTML'
+									url='https://developer.mozilla.org/en-US/docs/Web/HTML'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/css.png'
+									name='CSS'
+									url='https://developer.mozilla.org/en-US/docs/Web/CSS'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/js.png'
+									name='JavaScript'
+									url='https://www.javascript.com/'
+								/>
+								<Tag
+									className='mr-2'
+									image='/img/tags/skills/nextjs.webp'
+									name='Next.js'
+									url='https://nextjs.org/'
+								/>
+							</div>
 						</>
 					}
 				/>
