@@ -68,7 +68,7 @@ export default function ExternalZone() {
 				/>
 				<Card
 					subtitle='Designing the Website'
-					/* image='/img/projects/external-zone/website.gif' */
+					image='/img/projects/external-zone/website.webp'
 					largeImage={true}
 					text={
 						<>
