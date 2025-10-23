@@ -7,7 +7,7 @@ import Section from '@/app/components/Section';
 import YouTube from 'react-youtube';
 import Tag from '@/app/components/Tag';
 
-const videoId = 'i45FemqhdGI'; // YouTube video ID
+const videoId = 'vNyFxyhTa7U'; // YouTube video ID
 
 const videoOptions = {
 	height: '100%',
