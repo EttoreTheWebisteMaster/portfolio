@@ -38,6 +38,24 @@ export default function Home() {
 					truncate={true}
 				/>
 				<Card
+					title='The Roaster'
+					url='the-roaster'
+					image='/img/projects/the-roaster/roaster.png'
+					text={
+						<>
+							A bold, hilarious <b>AI comedian</b> built to{' '}
+							<b>roast</b> you with <b>precision</b> and{' '}
+							<b>personality</b>. I designed its <b>sharp wit</b>{' '}
+							and <b>comedic timing</b> to deliver{' '}
+							<b>personalized burns</b> and{' '}
+							<b>unforgettable laughs</b>, turning every chat into
+							a front-row seat at a digital comedy show.
+						</>
+					}
+					animation={true}
+					truncate={true}
+				/>
+				<Card
 					title='Feeling'
 					url='feeling'
 					image='/img/projects/feeling/logo.webp'

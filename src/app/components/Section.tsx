@@ -9,6 +9,7 @@ export default function ProjectSection(
 		deliverables?: string;
 		date?: string;
 		role?: string;
+		url?: string;
 	}>
 ) {
 	return (
@@ -49,6 +50,17 @@ export default function ProjectSection(
 						<p className='font-medium text-lg opacity-75'>Role</p>
 						<p className='text-base opacity-50'>{props.role}</p>
 					</div>
+
+					{props.url ? (
+						<div className='flex justify-between items-center flex-wrap pt-4'>
+							<p className='font-medium text-lg opacity-75'>
+								Check it out:
+							</p>
+							<a href={props.url} target="_blank" className='text-base opacity-50 underline font-bold'>{props.url}</a>
+						</div>
+					) : (
+						''
+					)}
 				</div>
 			</div>
 		</div>

@@ -23,6 +23,7 @@ export default function InfnDataCloud() {
 				date='October 2023 - February 2024'
 				role='UX/UI Designer, Developer'
 				image='/img/projects/infn-data-cloud/data-cloud-logo.webp'
+				url='https://www.cloud.infn.it/'
 			/>
 			<Paragraph
 				text={
